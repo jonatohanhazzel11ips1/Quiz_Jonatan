@@ -1,0 +1,114 @@
+/* FONT & RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+    background: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo span {
+    color: #ff3e3e;
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(45deg, #ff3e3e, #ff8f3e);
+    color: white;
+}
+
+.hero button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background: white;
+    color: #ff3e3e;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* PRODUK */
+.produk-section {
+    padding: 40px 20px;
+}
+
+.judul {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.produk-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    background: #ff3e3e;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
